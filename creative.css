@@ -1,0 +1,77 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    background-color: rgb(144, 182, 171);
+}
+.header{
+    flex:1;
+}
+.img{
+    margin:10px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+h6{
+    margin:0px;
+}
+.creative{
+    color:rgb(21, 10, 68);
+}
+.eft{
+    height:170px;
+    margin-right:50px;
+    float: left;    
+}
+.IMG1{
+    float:left;
+}
+.IMG2{
+    float:right;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    text-align: right;
+    color:rgb(43, 16, 80);
+    margin-top: 100px;
+}
+.card{
+    width:45%;
+}
+@media(max-width:800px)
+{
+    body{
+     background-color: rgb(209, 195, 155);
+    }
+}
+@media(max-width:680px){
+ body{
+    background-color: rgb(127, 133, 153);
+    font-size: 30px;
+ }   
+.img{
+   width:min-content;
+   
+}
+.agency{
+    text-align: center;
+}
+.card{
+    text-align: justify;
+    width:100%;
+    display: block;
+    margin-bottom:30px;
+}
+.eft{
+    display: inline;
+    width:100%;
+    object-fit:cover;
+    margin:10px;
+}
+}
